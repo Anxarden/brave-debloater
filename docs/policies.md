@@ -22,3 +22,14 @@ This document explains each policy used in the `brave-debloater.reg` file.
 | AutofillAddressEnabled | 0 = Enabled, 1 = Disabled | Disables address autofill |
 | AutofillCreditCardEnabled | 0 = Enabled, 1 = Disabled | Disables credit card autofill |
 | TranslateEnabled | 0 = Enabled, 1 = Disabled | Disables browser translation |
+
+---
+
+## DNS-over-HTTPS (DoH)
+
+| Policy | Values | Description |
+|--------|--------|-------------|
+| DnsOverHttpsMode | "automatic" / "secure" | Enables secure DNS. `"secure"` enforces DoH, `"automatic"` lets Brave adapt to system DNS |
+| DnsOverHttpsTemplates | URL | Specifies the DoH provider. Default in `brave-debloater.reg` is `"https://dns.adguard-dns.com/dns-query"`, but users can replace with a preferred provider |
+
+> **Note:** Once Brave is managed by policy, DNS settings in the UI will be **locked and grayed out**. Users cannot change them manually even after removing the policy lines.
