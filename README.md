@@ -1,6 +1,6 @@
 # Brave Debloater
 
-**A single Windows Registry script to safely debloat Brave Browser.**  
+**A single Windows Registry script to safely debloat [Brave Browser](https://brave.com/).**  
 
 This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist**, and other non-essential features, giving you a **cleaner, faster, and more privacy-focused browsing experience**.  
 
