@@ -4,7 +4,7 @@
 
 This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist**, and other non-essential features, giving you a **cleaner, faster, and more privacy-focused browsing experience**.  
 
-> **Note:** Shields and Sync settings are **left untouched** so you can continue using your adblocker and sync preferences.
+> **Note:** Sync setting is **left untouched** so you can continue using sync preferences or disable it yourself.
 
 ---
 
