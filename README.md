@@ -1,12 +1,11 @@
 # Brave Debloater
 
-**A single Windows Registry script to safely debloat [Brave Browser](https://brave.com/).**  
+**A single Windows Registry script and Linux JSON file to safely debloat [Brave Browser](https://brave.com/).**  
 
-This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist**, and other non-essential features, giving you a **cleaner, faster, and more privacy-focused browsing experience**.  
+This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist**, and other non-essential features, giving you a **cleaner, faster, and more privacy-focused browsing experience**.  
 
 > **Note:** Sync setting is **left untouched** so you can continue using sync preferences or disable it yourself.  
 > **Note:** Secure DNS is enforced, but you can choose your preferred DNS provider.
-> 
 ---
 
 ## Features
@@ -20,12 +19,23 @@ This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Sp
 
 ---
 
-## Usage
+## Usage – Windows
 
 1. Download the `brave-debloater.reg` file from the repo root.  
 2. **Double-click** the file to import it into the Windows registry.  
 3. **Restart Brave** (or Brave Portable) to apply the changes.  
 4. Verify applied policies by visiting: `brave://policy/`
+
+## Usage – Linux
+
+1. Open a terminal.  
+2. Create the managed policies directory (if it doesn't exist):
+   `sudo mkdir -p /etc/brave/policies/managed/`
+3. Copy `policies.json` into the directory:
+   `sudo cp policies.json /etc/brave/policies/managed/`
+4. Restart Brave to apply the changes.
+5. Verify applied policies by visiting: `brave://policy/`
+> **Note:** The JSON file can be used **as-is**; no renaming is required. Secure DNS is enforced by default, but you can choose a different provider.
 
 ---
 
