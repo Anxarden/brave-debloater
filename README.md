@@ -27,7 +27,7 @@ This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Sp
 
 ---
 
-## Policies Reference
+## Policies
 
 For a detailed explanation of each policy used in this script, see [Policies.md](docs/Policies.md).
 
