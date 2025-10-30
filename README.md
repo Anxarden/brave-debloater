@@ -2,7 +2,7 @@
 
 A single Windows Registry script to **debloat Brave Browser**.  
 Removes Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist, and other extra features.  
-> Shields and HTTPS/DNS settings are left untouched.
+> Sync settings are left untouched.
 
 ## Usage
 
