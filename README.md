@@ -27,6 +27,12 @@ This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Sp
 
 ---
 
+## Policies Reference
+
+For a detailed explanation of each policy used in this script, see [Policies.md](docs/Policies.md).
+
+---
+
 ## References
 
 - [Brave Official Group Policy Documentation](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)
