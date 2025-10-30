@@ -6,7 +6,6 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 > **Note:** Sync setting is **left untouched** so you can continue using sync preferences or disable it yourself.  
 > **Note:** Secure DNS is enforced, but you can choose your preferred DNS provider.
----
 
 ### ✨ Features
 - 🚫 Disable Brave AI (Chat, Leo, Summarizer)  
@@ -43,13 +42,9 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 For a detailed explanation of each policy used in this script, see [Policies.md](docs/policies.md).
 
----
-
 ### 🌍 DNS over HTTPS
 
 For more information about DNS-over-HTTPS, changing providers, and popular options, see [DNS.md](docs/dns.md).
-
----
 
 ### 🔗 References
 
