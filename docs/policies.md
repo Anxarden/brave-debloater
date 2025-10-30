@@ -1,5 +1,7 @@
 # Brave Registry Policies Explained
 
+This document explains each policy used in the `brave-debloater.reg` file.  
+
 | Policy | Values | Description |
 |--------|--------|-------------|
 | BraveAIChatEnabled | 0 = Disabled, 1 = Enabled | Controls Brave AI Chat |
