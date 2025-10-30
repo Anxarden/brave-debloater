@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+; Brave Debloat Policy by Anxarden (v1.82–v1.84+)
+; Sync and HTTPS/DNS Untouched
+
+[HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
+
+; === AI / Chat ===
+"BraveAIChatEnabled"=dword:00000000
+
+; === Rewards / Wallet / VPN ===
+"BraveRewardsDisabled"=dword:00000001
+"BraveWalletDisabled"=dword:00000001
+"BraveVPNDisabled"=dword:00000001
+
+; === Network / Privacy / Telemetry ===
+"TorDisabled"=dword:00000001
+"BraveP3AEnabled"=dword:00000000
+"BraveStatsPingEnabled"=dword:00000000
+"BraveWebDiscoveryEnabled"=dword:00000000
+
+; === Brave Features ===
+"BraveNewsDisabled"=dword:00000001
+"BraveTalkDisabled"=dword:00000001
+"BraveSpeedreaderEnabled"=dword:00000000
+"BraveWaybackMachineEnabled"=dword:00000000
+"BravePlaylistEnabled"=dword:00000000
+
+; === Sync, Autofill, Passwords, Translate ===
+"SyncDisabled"=dword:00000000
+"PasswordManagerEnabled"=dword:00000000
+"AutofillAddressEnabled"=dword:00000000
+"AutofillCreditCardEnabled"=dword:00000000
+"TranslateEnabled"=dword:00000000
