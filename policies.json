@@ -16,5 +16,7 @@
   "PasswordManagerEnabled": false,
   "AutofillAddressEnabled": false,
   "AutofillCreditCardEnabled": false,
-  "TranslateEnabled": false
+  "TranslateEnabled": false,
+  "DnsOverHttpsMode": "secure",
+  "DnsOverHttpsTemplates": "https://dns.adguard-dns.com/dns-query"
 }
