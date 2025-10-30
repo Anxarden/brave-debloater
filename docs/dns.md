@@ -1,6 +1,6 @@
 # DNS Configuration Guide
 
-This guide explains how Brave handles DNS over HTTPS (DoH) and how to change the provider if you don’t want to use the default AdGuard DNS setup from `brave-debloater.reg`.
+This guide explains how Brave handles DNS over HTTPS (DoH) and how to change the provider if you don’t want to use the default AdGuard DNS setup from `brave-debloater.reg` or `policies.json`.
 > **Note:** Once Brave is managed by policy, DNS settings in the UI will be locked and cannot be changed manually.
 ---
 
@@ -13,7 +13,7 @@ Once managed by policy, DNS settings in `brave://settings/security` become read-
 
 ---
 
-## ⚙️ Current Default (from brave-debloater.reg)
+## ⚙️ Current Default
 
 ```
 DnsOverHttpsMode = "secure"
@@ -41,10 +41,10 @@ AdGuard DNS blocks ads, trackers, and phishing domains by default.
 
 To switch providers:
 
-1. Open the `brave-debloater.reg` file in a text editor.  
+1. Open the `brave-debloater.reg` or `policies.json` file in a text editor.  
 2. Replace the line: `"DnsOverHttpsTemplates"="https://dns.adguard-dns.com/dns-query"`
    with your preferred DoH URL from the list above.  
-3. Save and re-import the `.reg` file (double-click it again).  
+3. Save and setup the `.reg` or `.json` file again, as always.
 4. Restart Brave.  
 5. Verify the change in: `brave://policy`
 
