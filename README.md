@@ -1,4 +1,4 @@
-# Brave Debloater
+## 🦁 Brave Debloater
 
 **A single Windows Registry script and Linux JSON file to safely debloat [Brave Browser](https://brave.com/).**  
 
@@ -8,25 +8,25 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 > **Note:** Secure DNS is enforced, but you can choose your preferred DNS provider.
 ---
 
-## Features
-
-- Disable Brave AI (Chat, Leo, Summarizer)  
-- Turn off Rewards, Wallet, and VPN  
-- Disable Telemetry (P3A, Stats Ping, Web Discovery)  
-- Remove News, Talk, Speedreader, Playlist, Wayback Machine  
-- Enforce secure DNS via AdGuard (or your preferred DNS)  
-- Leave Shields and Sync untouched  
+### ✨ Features
+- 🚫 Disable Brave AI (Chat, Leo, Summarizer)  
+- 💰 Turn off Rewards, Wallet, VPN, and Tor  
+- 📊 Disable Telemetry (P3A, Stats Ping, Web Discovery)  
+- 📰 Remove News, Talk, Speedreader, Playlist, and Wayback Machine  
+- 🔒 Disable Autofill, Password Manager, and Translation  
+- 🌐 Enforce secure DNS (customizable DoH provider)  
+- 🛡️ Leave Shields and Sync untouched  
 
 ---
 
-## Usage – Windows
+### 🪟 Usage – Windows
 
 1. Download the `brave-debloater.reg` file from the repo root.  
 2. **Double-click** the file to import it into the Windows registry.  
 3. **Restart Brave** (or Brave Portable) to apply the changes.  
 4. Verify applied policies by visiting: `brave://policy/`
 
-## Usage – Linux
+### 🐧 Usage – Linux
 
 1. Download the `policies.json` file from the repo root. 
 2. Create the managed policies directory (if it doesn't exist):
@@ -39,24 +39,24 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 ---
 
-## Policies
+### 📜 Policies
 
 For a detailed explanation of each policy used in this script, see [Policies.md](docs/policies.md).
 
 ---
 
-## DNS over HTTPS
+### 🌍 DNS over HTTPS
 
 For more information about DNS-over-HTTPS, changing providers, and popular options, see [DNS.md](docs/dns.md).
 
 ---
 
-## References
+### 🔗 References
 
 - [Brave Official Group Policy Documentation](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)
 
 ---
 
-## License
+## ⚖️ License
 
 This project is licensed under the [MIT License](LICENSE).
