@@ -28,7 +28,7 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 ## Usage – Linux
 
-1. Open a terminal.  
+1. Download the `policies.json` file from the repo root. 
 2. Create the managed policies directory (if it doesn't exist):
    `sudo mkdir -p /etc/brave/policies/managed/`
 3. Copy `policies.json` into the directory:
