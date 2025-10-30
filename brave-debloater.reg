@@ -31,3 +31,7 @@ Windows Registry Editor Version 5.00
 "AutofillAddressEnabled"=dword:00000000
 "AutofillCreditCardEnabled"=dword:00000000
 "TranslateEnabled"=dword:00000000
+
+; === Secure DNS (DNS over HTTPS) [Edit Provider as You Like] ===
+"DnsOverHttpsMode"="secure"
+"DnsOverHttpsTemplates"="https://dns.adguard-dns.com/dns-query"
