@@ -1,7 +1,7 @@
 # DNS Configuration Guide
 
 This guide explains how Brave handles DNS over HTTPS (DoH) and how to change the provider if you don’t want to use the default AdGuard DNS setup from `brave-debloater.reg`.
-
+> **Note:** Once Brave is managed by policy, DNS settings in the UI will be locked and cannot be changed manually.
 ---
 
 ## 🧠 What Is Secure DNS (DoH)?
@@ -53,9 +53,8 @@ To switch providers:
 ## 💡 Tips
 
 - Setting `"DnsOverHttpsMode"="automatic"` allows Brave to use the user’s system DNS if DoH fails.  
-- Some public DNS providers offer **IPv6** or **regional** endpoints — you can substitute them as needed.  
-- Removing both DNS policy lines restores full control to Brave’s internal settings.
-
+- Some public DNS providers offer **IPv6** or **regional** endpoints — you can substitute them as needed.
+  
 ---
 
 **Last updated:** October 2025  
