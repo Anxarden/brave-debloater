@@ -4,8 +4,9 @@
 
 This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist**, and other non-essential features, giving you a **cleaner, faster, and more privacy-focused browsing experience**.  
 
-> **Note:** Sync setting is **left untouched** so you can continue using sync preferences or disable it yourself.
-
+> **Note:** Sync setting is **left untouched** so you can continue using sync preferences or disable it yourself.  
+> **Note:** Secure DNS is enforced, but you can choose your preferred DNS provider.
+> 
 ---
 
 ## Features
@@ -14,7 +15,8 @@ This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Sp
 - Turn off Rewards, Wallet, and VPN  
 - Disable Telemetry (P3A, Stats Ping, Web Discovery)  
 - Remove News, Talk, Speedreader, Playlist, Wayback Machine  
-- Leave Shields, HTTPS, and Sync untouched  
+- Enforce secure DNS via AdGuard (or your preferred DNS)  
+- Leave Shields and Sync untouched  
 
 ---
 
@@ -29,7 +31,13 @@ This script disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Sp
 
 ## Policies
 
-For a detailed explanation of each policy used in this script, see [policies.md](docs/policies.md).
+For a detailed explanation of each policy used in this script, see [Policies.md](docs/policies.md).
+
+---
+
+## DNS over HTTPS
+
+For more information about DNS-over-HTTPS, changing providers, and popular options, see [DNS.md](docs/dns.md).
 
 ---
 
@@ -42,4 +50,3 @@ For a detailed explanation of each policy used in this script, see [policies.md]
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
