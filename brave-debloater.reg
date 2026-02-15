@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
-; Brave Debloat Policy by Anxarden (v1.82–v1.84+)
+; Brave Debloat Policy by Anxarden (v1.82–v1.85+)
 ; Sync and HTTPS/DNS Untouched
 
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
@@ -35,3 +35,4 @@ Windows Registry Editor Version 5.00
 ; === Secure DNS (DNS over HTTPS) [Edit Provider as You Like] ===
 "DnsOverHttpsMode"="secure"
 "DnsOverHttpsTemplates"="https://dns.adguard-dns.com/dns-query"
+
