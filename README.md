@@ -26,7 +26,11 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 4. Verify applied policies by visiting: `brave://policy/`
 
 ### 🐧 Usage – Linux
+#### Automated:
+Run the debloating script with:
+`$ curl -sfl https://raw.githubusercontent.com/AbdullahAlKhafajiDev/brave-debloater/refs/heads/main/brave-debloater-script.sh | sudo bash -`
 
+#### Manual: 
 1. Download the `policies.json` file from the repo root. 
 2. Create the managed policies directory (if it doesn't exist):
    `sudo mkdir -p /etc/brave/policies/managed/`
