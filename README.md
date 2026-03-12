@@ -27,8 +27,8 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 ### 🐧 Usage – Linux
 #### Automated:
-Run the debloating script with:
-`$ curl -sfl https://raw.githubusercontent.com/AbdullahAlKhafajiDev/brave-debloater/refs/heads/main/brave-debloater-script.sh | sudo bash -`
+Paste the following in your terminal, and Brave will be debloated automatically: <br>
+`$ curl -sfl https://raw.githubusercontent.com/AbdullahAlKhafajiDev/brave-debloater/refs/heads/main/brave-debloater-script.sh | bash -`
 
 #### Manual: 
 1. Download the `policies.json` file from the repo root. 
