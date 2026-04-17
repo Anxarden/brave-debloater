@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
-; Brave Debloat Policy by Anxarden (v1.84–v1.87+)
+; Brave Debloat Policy by Anxarden (v1.84–v1.89+)
 ; Sync and HTTPS/DNS Untouched
 
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
