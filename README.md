@@ -20,7 +20,7 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 ### 🪟 Usage – Windows
 
-1. Download the `brave-debloater.reg` file from the repo root.  
+1. Download the "*[brave-debloater.reg](https://raw.githubusercontent.com/anxarden/brave-debloater/main/brave-debloater.reg)*" file from the repo root.  
 2. **Double-click** the file to import it into the Windows registry.  
 3. **Restart Brave** (or Brave Portable) to apply the changes.  
 4. Verify applied policies by visiting: `brave://policy/`
