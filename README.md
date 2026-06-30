@@ -26,6 +26,26 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 4. Verify applied policies by visiting: `brave://policy/`
 
 ### 🐧 Usage – Linux
+#### Automated:
+Paste the following in your terminal, and Brave will be debloated automatically: <br>
+```bash
+  echo "Creating required directory..." &&
+  sudo mkdir -p /etc/brave/policies/managed/ &&
+
+  echo "Placing the debloat policies in place..." &&
+  curl -sfL https://raw.githubusercontent.com/Anxarden/brave-debloater/refs/heads/main/policies.json | sudo tee /etc/brave/policies/managed/policies.json >/dev/null &&
+
+  echo "Closing Brave..." &&
+  killall brave 2>/dev/null
+
+  echo "Restarting Brave..." && 
+  brave &
+
+  echo "Done!"
+
+```
+
+#### Manual: 
 1. Create the managed policies directory (if it doesn't exist): \
    `sudo mkdir -p /etc/brave/policies/managed/`
 2. Copy `policies.json` into the directory: \
@@ -44,6 +64,7 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 4. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
 
 > **Note:** The JSON file can be used **as-is**; no renaming is required. Secure DNS is enforced by default, but you can choose a different provider.
+
 
 
 ### 📜 Policies
