@@ -65,7 +65,7 @@ Paste the following in your terminal, and Brave will be debloated automatically:
 
 > **Note:** The JSON file can be used **as-is**; no renaming is required. Secure DNS is enforced by default, but you can choose a different provider.
 
----
+
 
 ### 📜 Policies
 
