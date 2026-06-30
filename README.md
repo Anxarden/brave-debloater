@@ -20,20 +20,49 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 
 ### 🪟 Usage – Windows
 
-1. Download the `brave-debloater.reg` file from the repo root.  
+1. Download the "*[brave-debloater.reg](https://raw.githubusercontent.com/anxarden/brave-debloater/main/brave-debloater.reg)*" file from the repo root.  
 2. **Double-click** the file to import it into the Windows registry.  
 3. **Restart Brave** (or Brave Portable) to apply the changes.  
 4. Verify applied policies by visiting: `brave://policy/`
 
 ### 🐧 Usage – Linux
+#### Automated:
+Paste the following in your terminal, and Brave will be debloated automatically: <br>
+```bash
+  echo "Creating required directory..." &&
+  sudo mkdir -p /etc/brave/policies/managed/ &&
 
-1. Download the `policies.json` file from the repo root. 
-2. Create the managed policies directory (if it doesn't exist):
+  echo "Placing the debloat policies in place..." &&
+  curl -sfL https://raw.githubusercontent.com/Anxarden/brave-debloater/refs/heads/main/policies.json | sudo tee /etc/brave/policies/managed/policies.json >/dev/null &&
+
+  echo "Closing Brave..." &&
+  killall brave 2>/dev/null
+
+  echo "Restarting Brave..." && 
+  brave &
+
+  echo "Done!"
+
+```
+
+#### Manual: 
+1. Create the managed policies directory (if it doesn't exist): \
    `sudo mkdir -p /etc/brave/policies/managed/`
-3. Copy `policies.json` into the directory:
-   `sudo cp policies.json /etc/brave/policies/managed/`
-4. Restart Brave to apply the changes.
-5. Verify applied policies by visiting: `brave://policy/`
+2. Copy `policies.json` into the directory: \
+   `cd /etc/brave/policies/managed/` \
+   `sudo curl -L -O https://raw.githubusercontent.com/anxarden/brave-debloater/main/policies.json`
+3. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
+
+### 📦 Usage – Flatpak
+1. Create the managed policies directory (if it doesn't exist): \
+   `sudo mkdir -p /etc/brave/policies/managed/`
+2. Copy `policies.json` into the directory: \
+   `cd /etc/brave/policies/managed/` \
+   `sudo curl -L -O https://raw.githubusercontent.com/anxarden/brave-debloater/main/policies.json`
+3. Grant the Flatpak app access to the policies directory: \
+   `sudo flatpak override --filesystem=/etc/brave/policies/managed com.brave.Browser`
+4. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
+
 > **Note:** The JSON file can be used **as-is**; no renaming is required. Secure DNS is enforced by default, but you can choose a different provider.
 
 ---
