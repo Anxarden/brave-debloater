@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutofillAddressEnabled</key>
+	<false/>
+	<key>AutofillCreditCardEnabled</key>
+	<false/>
+	<key>BraveAIChatEnabled</key>
+	<false/>
+	<key>BraveNewsDisabled</key>
+	<true/>
+	<key>BraveP3AEnabled</key>
+	<false/>
+	<key>BravePlaylistEnabled</key>
+	<false/>
+	<key>BraveRewardsDisabled</key>
+	<true/>
+	<key>BraveSpeedreaderEnabled</key>
+	<false/>
+	<key>BraveStatsPingEnabled</key>
+	<false/>
+	<key>BraveTalkDisabled</key>
+	<true/>
+	<key>BraveVPNDisabled</key>
+	<true/>
+	<key>BraveWalletDisabled</key>
+	<true/>
+	<key>BraveWaybackMachineEnabled</key>
+	<false/>
+	<key>BraveWebDiscoveryEnabled</key>
+	<false/>
+	<key>DnsOverHttpsMode</key>
+	<string>secure</string>
+	<key>DnsOverHttpsTemplates</key>
+	<string>https://dns.adguard-dns.com/dns-query</string>
+	<key>PasswordManagerEnabled</key>
+	<false/>
+	<key>SyncDisabled</key>
+	<false/>
+	<key>TorDisabled</key>
+	<true/>
+	<key>TranslateEnabled</key>
+	<false/>
+</dict>
+</plist>

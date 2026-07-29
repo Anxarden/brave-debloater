@@ -1,6 +1,6 @@
 ## 🦁 Brave Debloater
 
-**A single Windows Registry script and Linux JSON file to safely debloat [Brave Browser](https://brave.com/).**  
+**A Windows Registry script, macOS plist file, and Linux JSON file to safely debloat [Brave Browser](https://brave.com/).**
 
 This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, Speedreader, Playlist**, and other non-essential features, giving you a **cleaner, faster, and more privacy-focused browsing experience**.  
 
@@ -24,6 +24,17 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 2. **Double-click** the file to import it into the Windows registry.  
 3. **Restart Brave** (or Brave Portable) to apply the changes.  
 4. Verify applied policies by visiting: `brave://policy/`
+
+### 🍎 Usage – macOS
+1. Download `policies.plist`: \
+   `curl -fsSL https://raw.githubusercontent.com/anxarden/brave-debloater/main/policies.plist -o /tmp/brave-policies.plist`
+2. Install it as a managed preferences file for stable Brave: \
+   `sudo mkdir -p "/Library/Managed Preferences"` \
+   `sudo install -o root -g wheel -m 644 /tmp/brave-policies.plist "/Library/Managed Preferences/com.brave.Browser.plist"`
+3. Remove the temporary file and reload managed preferences: \
+   `rm /tmp/brave-policies.plist` \
+   `sudo killall cfprefsd`
+4. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
 
 ### 🐧 Usage – Linux
 1. Create the managed policies directory (if it doesn't exist): \
