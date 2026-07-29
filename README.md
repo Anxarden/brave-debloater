@@ -30,7 +30,7 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
    `curl -fsSL https://raw.githubusercontent.com/anxarden/brave-debloater/main/policies.plist -o /tmp/brave.plist`
 2. Install it as a managed preferences file for stable Brave: \
    `sudo mkdir -p "/Library/Managed Preferences"` \
-   `sudo install -o root -g wheel -m 644 /tmp/brave-policies.plist "/Library/Managed Preferences/com.brave.Browser.plist"`
+   `sudo install -o root -g wheel -m 644 /tmp/brave.plist "/Library/Managed Preferences/com.brave.Browser.plist"`
 3. Remove the temporary file and reload managed preferences: \
    `rm /tmp/brave.plist` \
    `sudo killall cfprefsd`
